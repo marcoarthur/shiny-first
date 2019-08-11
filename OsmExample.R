@@ -13,6 +13,7 @@ library(ggplot2)
 library(leaflet)
 library(osmdata)
 library(memoise)
+library(sf)
 
 get_osm_data <- function( city, amenity ) {
   # bound box for city
